@@ -1,20 +1,25 @@
-To disable specific functionality open ```about:config``` and change the value to ```false```.
-
 #### Google Safe Browsing
 
-Leaks the browsing history to Google. Note that disabling Safe Browsing exposes you to a risk of not being stopped from visiting malicious or phishing sites. [Description](https://support.mozilla.org/en-US/kb/how-does-phishing-and-malware-protection-work)
+Leaks the browsing history to Google. To disable remote lookups while keeping the protection against malicious and phishing sites create the following boolean and set it to ```true```. [Description](http://kb.mozillazine.org/Browser.safebrowsing.remoteLookups)
+```
+browser.safebrowsing.remoteLookups
+```
+
+To disable the functionality completely ([not recommended](https://github.com/amq/firefox-debloat/issues/3))
 ```
 browser.safebrowsing.enabled
-browser.safebrowsing.downloads.enabled
-browser.safebrowsing.malware.enabled
 ```
 
 #### Firefox stats collecting
 
-Stability and performance reports. Telemetry sends usage statistics. [Description](https://www.mozilla.org/en-US/privacy/firefox/#health-report)
+Stability and performance reports. [Description](https://www.mozilla.org/en-US/privacy/firefox/#health-report)
 ```
 datareporting.healthreport.service.enabled
 datareporting.healthreport.uploadEnabled
+```
+
+Usage statistics. [Description](https://www.mozilla.org/en-US/privacy/firefox/#telemetry)
+```
 toolkit.telemetry.enabled
 ```
 
@@ -42,7 +47,7 @@ loop.enabled
 
 #### Pocket integration
 
-[Description](https://support.mozilla.org/en-US/kb/save-web-pages-later-pocket-firefox)
+An online service for managing a reading list of articles. [Description](https://support.mozilla.org/en-US/kb/save-web-pages-later-pocket-firefox)
 ```
 browser.pocket.enabled
 ```
@@ -65,5 +70,16 @@ Everything you type in the search box is sent to the search engine. Suggestions 
 ```
 browser.search.suggest.enabled
 ```
+
+---
+
+#### Important changes
+0.1 - initial commit
+
+0.2 - removed mention of ```Reader mode``` (it doesn't leak data\*) and added ```browser.safebrowsing.remoteLookups``` (it is confrmed to stop leaking data to Google while keeping Safe Browsing on\*)
+
+\* tested using Fiddler
+
+---
 
 Pull requests are welcome.

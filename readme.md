@@ -1,3 +1,5 @@
+To disable the specific functionality open ```about:config``` and change the value to ```false```.
+
 Google Safe Browsing
 ```
 browser.safebrowsing.enabled

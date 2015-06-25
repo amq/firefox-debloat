@@ -60,7 +60,7 @@ geo.enabled
 
 #### Search suggestions
 
-Everything you type in the search box is sent to the search engine.
+Everything you type in the search box is sent to the search engine. Suggestions based on local history will still work.
 ```
 browser.search.suggest.enabled
 ```

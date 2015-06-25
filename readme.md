@@ -25,14 +25,14 @@ datareporting.healthreport.uploadEnabled
 toolkit.telemetry.enabled
 ```
 
-#### WebRTC
+#### [WebRTC](https://wiki.mozilla.org/Media/WebRTC)
 
 Leaks the real IP when using VPN/TOR. [Description and demo](https://github.com/diafygi/webrtc-ips)
 ```
 media.peerconnection.enabled
 ```
 
-#### DRM media playback ([Encrypted Media Extensions - EME](https://wiki.mozilla.org/Media/EME))
+#### [Encrypted Media Extensions - EME](https://wiki.mozilla.org/Media/EME) (DRM)
 
 A binary plugin (closed-source) is shipped with Firefox since v38. It enables playback of encrypted media and lets you use e.g. Netflix without Microsoft Silverlight. To completely remove the plugin you would have to install an [EME-free](http://download.cdn.mozilla.net/pub/firefox/releases/latest/win32-EME-free/) build of Firefox.
 ```

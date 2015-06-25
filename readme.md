@@ -10,7 +10,7 @@ browser.safebrowsing.malware.enabled
 
 #### Firefox stats collecting
 
-Stability and performance reports to Mozilla. Telemetry sends usage statistics. [Description](https://www.mozilla.org/en-US/privacy/firefox/#health-report)
+Stability and performance reports. Telemetry sends usage statistics. [Description](https://www.mozilla.org/en-US/privacy/firefox/#health-report)
 ```
 datareporting.healthreport.service.enabled
 datareporting.healthreport.uploadEnabled
@@ -34,7 +34,7 @@ media.gmp-eme-adobe.enabled
 
 #### Firefox Hello
 
-Firefox connects to third-party (Telefonica) servers without asking for permission [Description](https://support.mozilla.org/en-US/kb/firefox-hello-video-and-voice-conversations-online)
+Firefox connects to third-party (Telefonica) servers without asking for permission. [Description](https://support.mozilla.org/en-US/kb/firefox-hello-video-and-voice-conversations-online)
 ```
 loop.enabled
 ```

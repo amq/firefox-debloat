@@ -52,13 +52,6 @@ An online service for managing a reading list of articles. [Description](https:/
 browser.pocket.enabled
 ```
 
-#### Reader mode
-
-Each page you visit is parsed, potentially leaking your browsing history. [Discussion](https://bugzilla.mozilla.org/show_bug.cgi?id=558882)
-```
-reader.parse-on-load.enabled
-```
-
 #### Geolocation
 ```
 geo.enabled

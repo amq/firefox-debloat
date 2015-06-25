@@ -5,6 +5,7 @@ To disable specific functionality open ```about:config``` and change the value t
 Leaks the browsing history to Google. Note that disabling Safe Browsing exposes you to a risk of not being stopped from visiting malicious or phishing sites. [Description](https://support.mozilla.org/en-US/kb/how-does-phishing-and-malware-protection-work)
 ```
 browser.safebrowsing.enabled
+browser.safebrowsing.downloads.enabled
 browser.safebrowsing.malware.enabled
 ```
 

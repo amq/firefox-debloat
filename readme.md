@@ -1,24 +1,26 @@
-#### Google Safe Browsing
+Open ```about:config``` to change settings.
 
-Leaks the browsing history to Google. To disable remote lookups while keeping the protection against malicious and phishing sites create the following boolean and set it to ```true```. [Description](http://kb.mozillazine.org/Browser.safebrowsing.remoteLookups)
+#### [Google Safe Browsing](https://support.mozilla.org/en-US/kb/how-does-phishing-and-malware-protection-work)
+
+Leaks the browsing history to Google. To disable remote lookups while [keeping](http://kb.mozillazine.org/Browser.safebrowsing.remoteLookups) the protection against malicious and phishing sites create the following boolean and set it to ```true```.
 ```
 browser.safebrowsing.remoteLookups
 ```
 
-To disable the functionality completely ([not recommended](https://github.com/amq/firefox-debloat/issues/3))
+To disable the functionality completely ([not recommended](https://github.com/amq/firefox-debloat/issues/3)).
 ```
 browser.safebrowsing.enabled
 ```
 
 #### Firefox stats collecting
 
-Stability and performance reports. [Description](https://www.mozilla.org/en-US/privacy/firefox/#health-report)
+[Stability and performance reports.](https://www.mozilla.org/en-US/privacy/firefox/#health-report)
 ```
 datareporting.healthreport.service.enabled
 datareporting.healthreport.uploadEnabled
 ```
 
-Usage statistics. [Description](https://www.mozilla.org/en-US/privacy/firefox/#telemetry)
+[Usage statistics.](https://www.mozilla.org/en-US/privacy/firefox/#telemetry)
 ```
 toolkit.telemetry.enabled
 ```
@@ -30,24 +32,24 @@ Leaks the real IP when using VPN/TOR. [Description and demo](https://github.com/
 media.peerconnection.enabled
 ```
 
-#### DRM media playback (Encrypted Media Extensions - EME)
+#### DRM media playback ([Encrypted Media Extensions - EME](https://wiki.mozilla.org/Media/EME))
 
-A binary plugin (closed-source) is shipped with Firefox since v38. It enables playback of encrypted media and lets you use e.g. Netflix without Microsoft Silverlight. To completely remove the plugin you would have to install an '[EME-free](http://download.cdn.mozilla.net/pub/firefox/releases/latest/win32-EME-free/)' build of Firefox. [Description](https://wiki.mozilla.org/Media/EME)
+A binary plugin (closed-source) is shipped with Firefox since v38. It enables playback of encrypted media and lets you use e.g. Netflix without Microsoft Silverlight. To completely remove the plugin you would have to install an [EME-free](http://download.cdn.mozilla.net/pub/firefox/releases/latest/win32-EME-free/) build of Firefox.
 ```
 media.eme.enabled
 media.gmp-eme-adobe.enabled
 ```
 
-#### Firefox Hello
+#### [Firefox Hello](https://support.mozilla.org/en-US/kb/firefox-hello-video-and-voice-conversations-online)
 
-Firefox connects to third-party (Telefonica) servers without asking for permission. [Description](https://support.mozilla.org/en-US/kb/firefox-hello-video-and-voice-conversations-online)
+Firefox connects to third-party (Telefonica) servers without asking for permission.
 ```
 loop.enabled
 ```
 
-#### Pocket integration
+#### [Pocket integration](https://support.mozilla.org/en-US/kb/save-web-pages-later-pocket-firefox)
 
-An online service for managing a reading list of articles. [Description](https://support.mozilla.org/en-US/kb/save-web-pages-later-pocket-firefox)
+A third-party service for managing a reading list of articles.
 ```
 browser.pocket.enabled
 ```
@@ -73,6 +75,11 @@ browser.search.suggest.enabled
 
 \* tested using Fiddler
 
+
 ---
 
 Pull requests are welcome.
+
+---
+
+[Discussion of HN](https://news.ycombinator.com/item?id=9779440)

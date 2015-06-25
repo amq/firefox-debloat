@@ -2,7 +2,7 @@ To disable specific functionality open ```about:config``` and change the value t
 
 #### Google Safe Browsing
 
-Leaks your browsing history to Google. [Description](https://support.mozilla.org/en-US/kb/how-does-phishing-and-malware-protection-work)
+Leaks the browsing history to Google. Note that disabling Safe Browsing exposes you to a risk of not being stopped from visiting malicious or phishing sites. [Description](https://support.mozilla.org/en-US/kb/how-does-phishing-and-malware-protection-work)
 ```
 browser.safebrowsing.enabled
 browser.safebrowsing.malware.enabled
@@ -19,7 +19,7 @@ toolkit.telemetry.enabled
 
 #### WebRTC
 
-Leaks real IP when using VPN/TOR. [Description and demo](https://github.com/diafygi/webrtc-ips)
+Leaks the real IP when using VPN/TOR. [Description and demo](https://github.com/diafygi/webrtc-ips)
 ```
 media.peerconnection.enabled
 ```

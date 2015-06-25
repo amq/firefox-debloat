@@ -66,4 +66,12 @@ Everything you type in the search box is sent to the search engine. Suggestions 
 browser.search.suggest.enabled
 ```
 
+Firefox Tracking Protection
+```
+privacy.trackingprotection.enabled
+privacy.donottrackheader.enabled
+
+
 Pull requests are welcome.
+
+

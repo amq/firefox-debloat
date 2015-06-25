@@ -44,4 +44,12 @@ Search suggestions
 browser.search.suggest.enabled
 ```
 
+Firefox Tracking Protection
+```
+privacy.trackingprotection.enabled
+privacy.donottrackheader.enabled
+
+
 Pull requests are welcome.
+
+

@@ -48,7 +48,7 @@ browser.pocket.enabled
 
 #### Reader mode
 
-Each page you visit is parsed, leaking your browsing history. [Discussion](https://bugzilla.mozilla.org/show_bug.cgi?id=558882)
+Each page you visit is parsed, potentially leaking your browsing history. [Discussion](https://bugzilla.mozilla.org/show_bug.cgi?id=558882)
 ```
 reader.parse-on-load.enabled
 ```

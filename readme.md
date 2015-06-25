@@ -1,17 +1,15 @@
 To disable specific functionality open ```about:config``` and change the value to ```false```.
 
-### Google Safe Browsing
-
-Leaks the browsing history to Google. Note that disabling Safe Browsing exposes you to a risk of not being stopped from visiting malicious or phishing sites. [Description](https://support.mozilla.org/en-US/kb/how-does-phishing-and-malware-protection-work)
+### [Google Safe Browsing](https://support.mozilla.org/en-US/kb/how-does-phishing-and-malware-protection-work)
+Leaks the browsing history to Google. Note that disabling Safe Browsing exposes you to a risk of not being stopped from visiting malicious or phishing sites.
 ```
 browser.safebrowsing.enabled
 browser.safebrowsing.downloads.enabled
 browser.safebrowsing.malware.enabled
 ```
 
-### Firefox stats collecting
-
-Stability and performance reports. Telemetry sends usage statistics. [Description](https://www.mozilla.org/en-US/privacy/firefox/#health-report)
+### [Firefox stats collecting](https://www.mozilla.org/en-US/privacy/firefox/#health-report)
+Stability and performance reports. Telemetry sends usage statistics.
 ```
 datareporting.healthreport.service.enabled
 datareporting.healthreport.uploadEnabled
@@ -25,9 +23,8 @@ Leaks the real IP when using VPN/TOR.
 media.peerconnection.enabled
 ```
 
-### DRM media playback (Encrypted Media Extensions - EME)
-
-A binary plugin (closed-source) is shipped with Firefox since v38. It enables playback of encrypted media and lets you use e.g. Netflix without Microsoft Silverlight. To completely remove the plugin you would have to install an '[EME-free](http://download.cdn.mozilla.net/pub/firefox/releases/latest/win32-EME-free/)' build of Firefox. [Description](https://wiki.mozilla.org/Media/EME)
+### [DRM media playback (Encrypted Media Extensions - EME)](https://wiki.mozilla.org/Media/EME)
+A binary plugin (closed-source) is shipped with Firefox since v38. It enables playback of encrypted media and lets you use e.g. Netflix without Microsoft Silverlight. To completely remove the plugin you would have to install an '[EME-free](http://download.cdn.mozilla.net/pub/firefox/releases/latest/win32-EME-free/)' build of Firefox.
 ```
 media.eme.enabled
 media.gmp-eme-adobe.enabled

@@ -74,7 +74,7 @@ privacy.trackingprotection.enabled
 
 Disable OpenGL graphics acceleration (WebGL feature). This is a new web extension and giving any website the ability to put code into your graphics processor is believed to be a potential source of security vulnerabilities.
 ```
-webgl.disbled (set to true to disable webgl)
+webgl.disabled (set to true to disable webgl)
 ```
 
 ---

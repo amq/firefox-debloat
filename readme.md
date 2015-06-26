@@ -70,6 +70,13 @@ Enable to actively block sites that are known to track users. Do not confuse wit
 privacy.trackingprotection.enabled
 ```
 
+#### [WebGL](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API)
+
+Disable OpenGL graphics acceleration (WebGL feature). This is a new web extension and giving any website the ability to put code into your graphics processor is believed to be a potential source of security vulnerabilities.
+```
+webgl.disbled (set to true to disable webgl)
+```
+
 ---
 
 #### Important changes

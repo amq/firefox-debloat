@@ -63,6 +63,13 @@ Everything you type in the search box is sent to the search engine. Suggestions 
 browser.search.suggest.enabled
 ```
 
+#### [Tracking Protection](https://support.mozilla.org/en-US/kb/tracking-protection-firefox)
+
+Enable to actively block sites that are known to track users. Do not confuse with [DNT](https://www.mozilla.org/en-US/firefox/dnt/) which only asks sites not to track you.
+```
+privacy.trackingprotection.enabled
+```
+
 ---
 
 #### Important changes

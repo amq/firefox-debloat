@@ -65,6 +65,12 @@ media.peerconnection.enabled
 geo.enabled
 ```
 
+#### [Prefetching](https://support.mozilla.org/en-US/kb/how-stop-firefox-making-automatic-connections)
+```
+network.prefetch-next
+network.dns.disablePrefetch
+```
+
 ---
 
 #### Important changes

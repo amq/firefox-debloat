@@ -60,7 +60,7 @@ Leaks the real IP when using VPN/TOR. [Description and demo](https://github.com/
 media.peerconnection.enabled
 ```
 
-#### Geolocation
+#### [Geolocation](https://www.mozilla.org/en-US/firefox/geolocation/)
 ```
 geo.enabled
 ```

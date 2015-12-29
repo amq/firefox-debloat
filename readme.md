@@ -78,6 +78,13 @@ geo.enabled = false
 plugin.state.flash = 0
 ```
 
+#### [WebGL](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API)
+
+Disable OpenGL graphics acceleration (WebGL feature). This is a new web extension and giving any website the ability to put code into your graphics processor is believed to be a potential source of security vulnerabilities.
+```
+webgl.disabled (set to true to disable webgl)
+```
+
 ---
 
 #### Important changes

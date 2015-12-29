@@ -1,6 +1,6 @@
 This list aims to block core Firefox features which *actively* leak data to third-party services (as opposed to attempts of sites to track you or otherwise passively collect information). As it isn't always easy to draw a strict line, the most critical passive data faucets like WebRTC are also mentioned.
 
-We are not breaking the browsing experience, so you won't find things like spoofing referers and canvas properties here.
+We are not breaking the browsing experience, so you won't find things like spoofing referrers and canvas properties here.
 
 To change the settings open ```about:config```.
 
@@ -83,7 +83,7 @@ plugin.state.flash = 0
 #### Important changes
 0.1 - initial commit
 
-0.2 - removed mention of ```Reader mode``` (it doesn't leak data\*) and added ```browser.safebrowsing.remoteLookups``` (it is confrmed to stop leaking data to Google while keeping Safe Browsing on\*).
+0.2 - removed mention of ```Reader mode``` (it doesn't leak data\*) and added ```browser.safebrowsing.remoteLookups``` (it is confirmed to stop leaking data to Google while keeping Safe Browsing on\*).
 
 0.3 - ```browser.safebrowsing.remoteLookups``` turned out to do nothing after all. Actually, it was [removed](https://bugzilla.mozilla.org/show_bug.cgi?id=388652). Requests to the Google Safe Search API are not made often, so at first I thought they were gone.
 

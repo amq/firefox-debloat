@@ -68,7 +68,7 @@ Instead of completely disabling WebRTC you could also make it connect over [the 
 media.peerconnection.ice.default_address_only = true
 ```
 
-#### Geolocation
+#### [Geolocation](https://www.mozilla.org/en-US/firefox/geolocation/)
 ```
 geo.enabled = false
 ```

@@ -78,6 +78,22 @@ geo.enabled = false
 plugin.state.flash = 0
 ```
 
+#### Web IDE
+have got features for remote debugging and connection actions in your browser, gives posibility for remote plugins installation. If you don't use it for web development will be better to switch it off.
+```
+devtools.webide.autoConnectRuntime - false
+devtools.webide.autoInstallADBHelper - false
+devtools.webide.autoInstallFxdtAdapters - false
+devtools.webide.autosaveFiles - false
+devtools.webide.enabled - false
+devtools.webide.enableLocalRuntime - false
+devtools.webide.monitorWebSoketURL - remove string
+devtools.webide.restoreLastProject - false
+devtools.webide.showProjectEditor - false
+devtools.webide.widget.autoinstall - false
+devtools.webide.widget.enabled - false
+```
+
 ---
 
 #### Important changes

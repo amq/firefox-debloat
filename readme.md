@@ -17,7 +17,7 @@ browser.safebrowsing.malware.enabled = false
 
 [Stability and performance reports.](https://www.mozilla.org/en-US/privacy/firefox/#health-report)
 ```
-datareporting.healthreport.service.enabled = false
+datareporting.policy.dataSubmissionEnabled = false
 datareporting.healthreport.uploadEnabled = false
 ```
 
@@ -46,7 +46,7 @@ loop.enabled = false
 
 A third-party service for managing a reading list of articles.
 ```
-browser.pocket.enabled = false
+extensions.pocket.enabled = false
 ```
 
 #### Search suggestions

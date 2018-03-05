@@ -15,7 +15,7 @@ browser.safebrowsing.malware.enabled = false
 
 #### Firefox stats collecting
 
-[Submission of stability, performance and usage reports.](https://gecko.readthedocs.org/en/latest/toolkit/components/telemetry/telemetry/preferences.html#data-choices-notification)
+[Submission of stability, performance and usage reports.](https://firefox-source-docs.mozilla.org/toolkit/components/telemetry/telemetry/internals/preferences.html#data-choices-notification)
 
 This is the data submission master kill switch. Data is still locally gathered, unless you disable the services as described below.
 ```

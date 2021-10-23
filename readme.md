@@ -46,7 +46,7 @@ loop.enabled = false
 
 A third-party service for managing a reading list of articles.
 ```
-browser.pocket.enabled = false
+extensions.pocket.enabled = false
 ```
 
 #### Search suggestions
